@@ -1,0 +1,205 @@
+<root>
+	<Properties>
+
+        <Data>
+          <Type> ACCOUNT_DATA </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		true				</Persistent>
+        </Data>
+
+
+        <BattleData>
+          <Type> Battle_DATA </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		true				</Persistent>
+        </BattleData>
+
+        <CardList>
+          <Type> CARD_INFOS_LIST </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		true				</Persistent>
+        </CardList>
+
+        <BattleHandCardList>
+          <Type> CARD_LIST </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		false				</Persistent>
+        </BattleHandCardList>
+
+        <BattleInfoList>
+          <Type> INFOS_LIST </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		false				</Persistent>
+        </BattleInfoList>
+
+        <Field>
+          <Type> FIELD_INFOS </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		false				</Persistent>
+        </Field>
+
+        <ChatMsg>
+          <Type> UNICODE </Type>
+          <Flags>			BASE_AND_CLIENT				</Flags>
+          <Persistent>		false				</Persistent>
+        </ChatMsg>
+
+	</Properties>
+
+	<ClientMethods>
+
+        <onName>
+          <Arg> UNICODE </Arg>
+        </onName>
+
+        <onBuyKaBaoResult>
+          <Arg> INT16 </Arg>
+        </onBuyKaBaoResult>
+
+        <onOpenKaBaoResult>
+          <Arg> CARD_LIST </Arg>
+        </onOpenKaBaoResult>
+
+        <onServerMsg>
+          <Arg> UNICODE </Arg>
+        </onServerMsg>
+
+        <onInitBattleField>
+            <Arg> INT16 </Arg>
+            <Arg> UNICODE </Arg>
+        </onInitBattleField>
+
+        <onNextRound_Your>
+            <Arg> INT16 </Arg>
+        </onNextRound_Your>
+
+
+        <onNextRound_Opps>
+            <Arg> INT16 </Arg>
+        </onNextRound_Opps>
+
+        <onRetinueAction>
+        </onRetinueAction>
+
+        <onUseCard>
+            <Arg> INT16 </Arg>
+        </onUseCard>
+
+        <onRemoveHandCard>
+        </onRemoveHandCard>
+
+        <recChatMsg>
+             <Arg> UNICODE </Arg>
+        </recChatMsg>
+
+
+        <recv_BattleData>
+             <Arg> CARD_LIST </Arg>
+        </recv_BattleData>
+
+        <onBattleEndResult>
+            <Arg> INT16 </Arg>
+            <Arg> INT16 </Arg>
+            <Arg> INT16 </Arg>
+            <Arg> INT16 </Arg>
+        </onBattleEndResult>
+
+
+	</ClientMethods>
+
+	<BaseMethods>
+
+        <reqName>
+          <Exposed/>
+        </reqName>
+
+        <reqCreateName>
+          <Arg> UNICODE </Arg>
+          <Exposed/>
+        </reqCreateName>
+
+        <reqChooseRole>
+            <Arg> INT8 </Arg>
+          <Exposed/>
+        </reqChooseRole>
+
+        <reqBuyKaBao>
+          <Arg> INT8 </Arg>
+          <Exposed/>
+        </reqBuyKaBao>
+
+        <reqOpenKaBao>
+          <Exposed/>
+        </reqOpenKaBao>
+
+        <OnClientMsg>
+          <Arg> UNICODE </Arg>
+        </OnClientMsg>
+
+        <reqStopMarch>
+          <Exposed/>
+        </reqStopMarch>
+
+        <reqStartMarch>
+            <Arg> INT16 </Arg>
+            <Exposed/>
+        </reqStartMarch>
+
+        <OnEnterBattelField>
+          <Arg> MAILBOX </Arg>
+          <Arg> INT16 </Arg>
+        </OnEnterBattelField>
+
+
+        <reqUseCard>
+            <Arg> INT16 </Arg>
+            <Arg> INT16 </Arg>
+          <Exposed/>
+        </reqUseCard>
+
+        <reqRetinueAction>
+            <Arg> INT16 </Arg>
+            <Arg> INT16 </Arg>
+          <Exposed/>
+        </reqRetinueAction>
+
+        <reqNextRound>
+          <Exposed/>
+        </reqNextRound>
+
+        <reqGiveUp>
+          <Exposed/>
+        </reqGiveUp>
+
+        <creatHandCard>
+          <Arg> INT16 </Arg>
+        </creatHandCard>
+
+        <onNextRound_Your>
+            <Arg> INT16 </Arg>
+        </onNextRound_Your>
+
+
+        <onNextRound_Opps>
+            <Arg> INT16 </Arg>
+        </onNextRound_Opps>
+
+
+        <onUserCard>
+        </onUserCard>
+
+        <onRetinueAction>
+        </onRetinueAction>
+
+
+        <reqChat>
+            <Arg> UNICODE </Arg>
+            <Exposed/>
+        </reqChat>
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

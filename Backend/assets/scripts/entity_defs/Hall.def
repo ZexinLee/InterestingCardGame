@@ -1,0 +1,30 @@
+<root>
+	<Implements>
+    
+	</Implements>
+
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+
+
+
+    <reqAddMarcher>
+      <!--玩家开始匹配向汇报的方法 -->
+      <Arg>	MAILBOX	</Arg>
+    </reqAddMarcher>
+
+    <reqDelMarcher>
+      <!--玩家停止匹配向汇报的方法 -->
+      <Arg>	MAILBOX	</Arg>
+    </reqDelMarcher>
+
+
+  </BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,181 @@
+<root>
+
+  <ACCOUNT_DATA> FIXED_DICT
+    <Properties>
+      <name>
+        <Type>	UNICODE	</Type>
+      </name>
+      <money>
+        <Type>	INT64	</Type>
+      </money>
+      <role>
+        <Type>	INT64	</Type>
+      </role>
+      <grade>
+        <Type>	INT64	</Type>
+      </grade>
+      <exp>
+        <Type>	INT64	</Type>
+      </exp>
+      <rank>
+        <Type>	INT64	</Type>
+      </rank>
+      <kabao>
+        <Type>	INT64	</Type>
+      </kabao>
+    </Properties>
+  </ACCOUNT_DATA>
+
+  <Battle_DATA> FIXED_DICT
+    <Properties>
+      <selfenergy>
+        <Type>	INT16	</Type>
+      </selfenergy>
+      <selfenergylimit>
+        <Type>	INT16	</Type>
+      </selfenergylimit>
+      <selfstress>
+        <Type>	INT16	</Type>
+      </selfstress>
+      <selfstresslimit>
+        <Type>	INT16	</Type>
+      </selfstresslimit>
+      <oppenergy>
+        <Type>	INT16	</Type>
+      </oppenergy>
+      <oppstress>
+        <Type>	INT16	</Type>
+      </oppstress>
+      <oppenergylimit>
+        <Type>	INT16	</Type>
+      </oppenergylimit>
+      <oppstresslimit>
+        <Type>	INT16	</Type>
+      </oppstresslimit>
+      <selfhandcardnum>
+        <Type>	INT16	</Type>
+      </selfhandcardnum>
+      <selfcardnum>
+        <Type>	INT16	</Type>
+      </selfcardnum>
+      <opphandcardnum>
+        <Type>	INT16	</Type>
+      </opphandcardnum>
+      <oppcardnum>
+        <Type>	INT16	</Type>
+      </oppcardnum>
+    </Properties>
+  </Battle_DATA>
+
+  <BUFF> FIXED_DICT
+    <Properties>
+      <affect>
+        <Type>	INT16	</Type>
+      </affect>
+      <last>
+        <Type>	INT16	</Type>
+      </last>
+    </Properties>
+  </BUFF>
+
+  <BUFF_LIST>
+    ARRAY <of> BUFF </of>
+  </BUFF_LIST>
+
+
+
+  <FOLLOWER> FIXED_DICT
+    <Properties>
+      <id>
+        <Type>	INT16	</Type>
+      </id>
+      <hp>
+        <Type>	INT16	</Type>
+      </hp>
+      <att>
+        <Type>	INT16	</Type>
+      </att>
+      <cost>
+        <Type>	INT16	</Type>
+      </cost>
+      <buff>
+        <Type>	BUFF_LIST	</Type>
+      </buff>
+    </Properties>
+  </FOLLOWER>
+
+  <FOLLOWER_LIST>
+    ARRAY <of> FOLLOWER </of>
+  </FOLLOWER_LIST>
+
+  <FIELD_INFOS> FIXED_DICT
+    <Properties>
+      <selffollower>
+        <Type>	FOLLOWER_LIST	</Type>
+      </selffollower>
+      <oppfollower>
+        <Type>	FOLLOWER_LIST	</Type>
+      </oppfollower>
+    </Properties>
+  </FIELD_INFOS>
+
+
+
+
+
+
+
+  <CARD_INFOS>
+    FIXED_DICT
+    <Properties>
+      <cardID>
+        <Type>INT16</Type>
+      </cardID>
+      <value>
+        <Type>INT16</Type>
+      </value>
+    </Properties>
+  </CARD_INFOS>
+
+  <CARD_INFOS_LIST>
+          ARRAY <of> CARD_INFOS </of>
+  </CARD_INFOS_LIST>
+
+  <CARD_LIST>
+    ARRAY <of> INT16 </of>
+  </CARD_LIST>
+
+  <TARGET>
+    ARRAY <of> INT16 </of>
+  </TARGET>
+
+  <INFO>
+    FIXED_DICT
+    <Properties>
+      <action>
+        <Type>UNICODE</Type>
+      </action>
+      <value>
+        <Type>INT16</Type>
+      </value>
+      <end>
+        <Type>INT16</Type>
+      </end>
+      <start>
+        <Type>INT16</Type>
+      </start>
+      <valuehp>
+        <Type>INT16</Type>
+      </valuehp>
+    </Properties>
+  </INFO>
+
+  <INFOS_LIST>
+          ARRAY <of> INFO </of>
+  </INFOS_LIST>
+
+  <MSG_LIST>
+          ARRAY <of> UNICODE </of>
+  </MSG_LIST>
+
+</root>

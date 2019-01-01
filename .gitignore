@@ -1,0 +1,4 @@
+*.exe
+*.txt
+/Frontend/*
+/Scripts/*.meta

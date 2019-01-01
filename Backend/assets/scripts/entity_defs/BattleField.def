@@ -1,0 +1,47 @@
+<root>
+	<Implements>    
+	</Implements>
+
+	<Properties>
+
+    <player0>
+      <Type> MAILBOX </Type>
+      <Flags>			BASE				</Flags>
+    </player0>
+
+    <player1>
+      <Type> MAILBOX </Type>
+      <Flags>			BASE				</Flags>
+    </player1> 
+   
+	</Properties>
+
+	<BaseMethods>
+
+    <reqNextRound>
+      <Arg> INT8 </Arg>
+    </reqNextRound>
+
+
+    <playerUseCard>
+      <Arg> INT8 </Arg>
+      <Arg> INT8 </Arg>
+      <Arg> INT8 </Arg>
+    </playerUseCard>
+
+    <playerRetinueAction>
+      <Arg> INT8 </Arg>
+      <Arg> INT8 </Arg>
+      <Arg> INT8 </Arg>
+    </playerRetinueAction>
+
+
+  </BaseMethods>
+
+
+  
+  <CellMethods>
+    
+
+    </CellMethods>
+</root>
