@@ -1,0 +1,176 @@
+
+{
+"classname": "Card",
+"cardnum": "10",
+"config": [
+
+		/*
+		//"card":
+		{
+			"name": "",
+			"effect":{
+					"class": "",
+					"group": "",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "",
+					"kind": [""],
+					"special": "default"
+			},
+			"description": "",
+			"story": "",
+			"image": "./img.png"
+		},
+		*/
+		//"card0":
+		{
+			"name": "赵宇",
+			"effect": {
+						"class": "person",
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "3",
+						"kind": ["0,2,2,0","1,0,3,0","2,0,4,0"],
+						"special": "default"
+			},
+			"description": "",
+			"story": "无法傻傻的几千万的",
+			"image": "./img0.png"}, 
+		//"card1":
+		{
+			"name": "贺老师", 
+			"effect": {
+						"class": "person",
+						"group": "0",
+						"effect_classification": [1,0,0,0,0], //基础特效default
+						"effect_number": "4",//具有4种效果
+						"kind": ["0,2,2,0","1,0,4,0","2,0,4,0","7,1,6,2"],
+						"special": "default"
+			},
+			"description": "战吼：对方下回合加(6)点护甲",//卡面描述
+			"story": "一位不愿意透露自己姓名的大佬",//卡牌故事
+			"image": "./img1.png"},//图像路径 
+		//"card2":
+		{
+			"name": "唐博",
+			"effect": {
+						"class": "person",
+						"group": "0",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "8",
+						"kind": ["0,2,5,0","1,0,3,0","2,0,3,0","4,71,-3,0","4,72,-3,0","4,73,-3,0","4,3,3,0"], 
+						"special": "default"
+			},
+			"description":"战吼：对所有非学霸随从造成(3)点伤害，双方增加(3)点压力",
+			"story":"Talk is cheap, show me your code!",
+			"image": "./img2.png"}, 
+		//"card3":
+		{
+			"name": "网吧老板", 
+			"effect": {
+						"class": "person", 
+						"group": "1",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "4", 
+						"kind": ["0,2,4,0","1,0,3,0","2,0,4,0","4,3,-3,4"],
+						"special": "default"}, 
+			"description":"每回合结束时，双方减少(3)点压力",
+			"story":"这里是网吧，不是酒馆！",
+			"image": "./img3.png"}, 
+		//"card4":
+		{
+			"name": "健身房教练", 
+			"effect": {
+					"class": "person", 
+					"group": "2",
+					"effect_classification": [1,0,0,0,0],
+					"effect_number": "4", 
+					"kind":["0,2,5,0","1,0,6,0","2,0,5,0","811,51,0,0"],
+					"special": "default"}, 
+			"description":"战吼：随机一个其他友方随从+1/+1",
+			"story":"这两个杠铃有区别吗？没区别啊",
+			"image": "./img4.png"}, 
+		//"card5":
+		{
+			"name": "篮球队教练-赵飞", 
+			"effect": {
+						"class": "person", 
+						"group": "2",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind": ["0,2,6,0","1,0,6,0","2,0,6,0","811,56,0,0"],
+						"special": "default"}, 
+			"description":"战吼：所有其他友方随从+1/+1",
+			"story":"坐下！全体起立！",
+			"image": "./img5.png"}, 
+		//"card6":
+		{
+			"name": "艺术中心教师-纪涛", 
+			"effect": {
+						"class": "person", 
+						"group": "3",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind":["0,2,3,0","1,0,3,0","2,0,2,0","911,0,2,0"],
+						"special": "default"}, 
+			"description":"战吼：召唤两个1/1的粉丝",
+			"story":"啦啦啦",
+			"image": "./img6.png"}, 
+		//"card7":
+		{
+			"name": "宿管大妈", 
+			"effect": {
+						"class": "person", 
+						"group": "4",
+						"effect_classification": [0,0,0,0,0],
+			    		"effect_number": "3", 
+						"kind":["0,2,4,0","1,0,4,0","2,0,5,0"],
+						"special": "default"}, 
+			"description":"",
+			"story":"小伙子你怎么又晚归了",
+			"image": "./img7.png"}, 
+		//"card8":
+		{
+			"name": "食堂打饭大妈", 
+			"effect": {
+						"class": "person", 
+						"group": "4",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind":["0,2,4,0","1,0,3,0","2,0,5,0","4,3,-4,0"],
+						"special": "default"}, 
+			"description":"战吼：双方减少(4)点压力",
+			"story":"要多吃啊",
+			"image": "./img8.png"}, 
+		//"card9":
+		{
+			"name": "刘主任", 
+			"effect": {
+						"class": "person", 
+						"group": "4",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind":["0,2,4,0","1,0,4,0","2,0,4,0","3,3,3,0"],
+						"special": "default"}, 
+			"description":"双方活力上限减少(3)点",
+			"story":"哎我看你这车不错啊",
+			"image": "./img9.png"}, 
+		//"card10"
+]
+}
+		/*
+		//"card":
+		{
+			"name": "",
+			"effect":{
+					"class": "",
+					"group": "",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "",
+					"kind": [""],
+					"special": "default"
+			},
+			"description": "",
+			"story": "",
+			"image": "./img.png"
+		},
+		*/

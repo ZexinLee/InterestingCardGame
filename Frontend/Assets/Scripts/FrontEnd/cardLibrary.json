@@ -1,0 +1,1019 @@
+
+{
+"classname": "Card",
+"cardnum": "70",
+"config": [
+
+		/*
+		//"card":
+		{
+			"name": "",
+			"effect":{
+					"class": "",
+					"group": "",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "",
+					"kind": [""],
+					"special": "default"
+			},
+			"description": "",
+			"story": "",
+			"image": "./img.png"
+		},
+		*/
+		//"card0":
+		{
+			"name": "赵宇",
+			"effect": {
+						"class": "person",
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "3",
+						"kind": ["0,2,2,0","1,0,3,0","2,0,4,0"],
+						"special": "default"
+			},
+			"description": "",
+			"story": "...",
+			"image": "./img0.png"}, 
+		//"card1":
+		{
+			"name": "贺老师", 
+			"effect": {
+						"class": "person",
+						"group": "0",
+						"effect_classification": [1,0,0,0,0], //基础特效default
+						"effect_number": "4",//具有4种效果
+						"kind": ["0,2,2,0","1,0,4,0","2,0,4,0","7,1,6,2"],
+						"special": "default"
+			},
+			"description": "战吼：对方下回合加(6)点护甲",//卡面描述
+			"story": "一位不愿意透露自己姓名的大佬",//卡牌故事
+			"image": "./img1.png"},//图像路径 
+		//"card2":
+		{
+			"name": "唐博",
+			"effect": {
+						"class": "person",
+						"group": "0",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "8",
+						"kind": ["0,2,5,0","1,0,3,0","2,0,3,0","4,71,-3,0","4,72,-3,0","4,73,-3,0","4,3,3,0"], 
+						"special": "default"
+			},
+			"description":"战吼：对所有非学霸随从造成(3)点伤害，双方增加(3)点压力",
+			"story":"Talk is cheap, show me your code!",
+			"image": "./img2.png"}, 
+		//"card3":
+		{
+			"name": "网吧老板", 
+			"effect": {
+						"class": "person", 
+						"group": "1",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "4", 
+						"kind": ["0,2,4,0","1,0,3,0","2,0,4,0","4,3,-3,4"],
+						"special": "default"}, 
+			"description":"每回合结束时，双方减少(3)点压力",
+			"story":"这里是网吧，不是酒馆！",
+			"image": "./img3.png"}, 
+		//"card4":
+		{
+			"name": "健身房教练", 
+			"effect": {
+					"class": "person", 
+					"group": "2",
+					"effect_classification": [1,0,0,0,0],
+					"effect_number": "4", 
+					"kind":["0,2,5,0","1,0,6,0","2,0,5,0","811,51,0,0"],
+					"special": "default"}, 
+			"description":"战吼：随机一个其他友方随从+1/+1",
+			"story":"这两个杠铃有区别吗？没区别啊",
+			"image": "./img4.png"}, 
+		//"card5":
+		{
+			"name": "篮球队教练-赵飞", 
+			"effect": {
+						"class": "person", 
+						"group": "2",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind": ["0,2,6,0","1,0,6,0","2,0,6,0","811,56,0,0"],
+						"special": "default"}, 
+			"description":"战吼：所有其他友方随从+1/+1",
+			"story":"坐下！全体起立！",
+			"image": "./img5.png"}, 
+		//"card6":
+		{
+			"name": "艺术中心教师-纪涛", 
+			"effect": {
+						"class": "person", 
+						"group": "3",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind":["0,2,3,0","1,0,3,0","2,0,2,0","911,0,2,0"],
+						"special": "default"}, 
+			"description":"战吼：召唤两个1/1的粉丝",
+			"story":"啦啦啦",
+			"image": "./img6.png"}, 
+		//"card7":
+		{
+			"name": "宿管大妈", 
+			"effect": {
+						"class": "person", 
+						"group": "4",
+						"effect_classification": [0,0,0,0,0],
+			    		"effect_number": "3", 
+						"kind":["0,2,4,0","1,0,4,0","2,0,5,0"],
+						"special": "default"}, 
+			"description":"",
+			"story":"小伙子你怎么又晚归了",
+			"image": "./img7.png"}, 
+		//"card8":
+		{
+			"name": "食堂打饭大妈", 
+			"effect": {
+						"class": "person", 
+						"group": "4",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind":["0,2,4,0","1,0,3,0","2,0,5,0","4,3,-4,0"],
+						"special": "default"}, 
+			"description":"战吼：双方减少(4)点压力",
+			"story":"要多吃啊",
+			"image": "./img8.png"}, 
+		//"card9":
+		{
+			"name": "刘主任", 
+			"effect": {
+						"class": "person", 
+						"group": "4",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "4", 
+						"kind":["0,2,4,0","1,0,4,0","2,0,4,0","3,3,3,0"],
+						"special": "default"}, 
+			"description":"双方活力上限减少(3)点",
+			"story":"哎我看你这车不错啊",
+			"image": "./img9.png"}, 
+		//"card10"
+		{
+			"name": "自习室学习", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,2,1,0","1,3,4,0"],
+						"special": "default"}, 
+			"description":"双方压力增加(4)点",
+			"story":"自习室是个学(kai)习(hei)好地方啊",
+			"image": "./img10.png"}, 
+		//"card11"
+		{
+			"name": "修仙", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "5", 
+						"kind":["0,2,3,0","1,4,-3,0","4,2,1,0","3,2,1,0"],
+						"special": "default"}, 
+			"description":"对所有对方随从造成(3)点伤害，抽一张牌，我方减少(1)点活力上限",
+			"story":"什么修仙，这不是正常的作息吗？",
+			"image": "./img11.png"}, 
+		//"card12"
+		{
+			"name": "十R抽卡", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "3", 
+						"kind":["0,2,4,0","1,71,-1,0","4,1,-1,2"],
+						"special": "default"}, 
+			"description":"对所有学渣造成(1)点伤害，对方下回合抽卡数量减少(1)",
+			"story":"并不是所有的非洲人脸都黑，但我是真的黑",
+			"image": "./img12.png"}, 
+		//"card13"
+		{
+			"name": "非洲酋长", 
+			"effect": {
+						"class": "person", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,2,8,0","1,0,6,0","2,0,10,0"],
+						"special": "default"}, 
+			"description":"	酋长？不应该是个领袖啥的吗，为啥我觉得自己像个弟弟",
+			"story":"",
+			"image": "./img13.png"}, 
+		//"card14"
+		{
+			"name": "山风点火", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,2,0,0","1,56,4,0"],
+						"special": "default"}, 
+			"description":"使我方所有随从恢复(4)点生命值",
+			"story": "山风：？？？？",
+			"image": "./img14.png"}, 
+		//"card15"
+		{
+			"name": "吃鸡游戏", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "3", 
+						"kind":["0,2,2,0","1,2,-5,0","1,8,99,0"],
+						"special": "default"}, 
+			"description":"我方压力减少(5)点，并恢复一个随从所有生命",
+			"story":"刚才这儿落了三个空投，对，来的人都死了",
+			"image": "./img15.png"}, 
+		//"card16"
+		{
+			"name": "Steam夏季促销", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "3", 
+						"kind":["0,2,3,0","6,2,5,0","4,2,1,0"],
+						"special": "default"}, 
+			"description":"我方护甲增加(5)点，抽(1)张牌",
+			"story": "我不知道什么双11，双12，现在才是花钱的时候",
+			"image": "./img16.png"}, 
+		//*"card17
+		{
+			"name": "南科梦想", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,2,10,0","833,56,0,0"],
+						"special": "default"}, 
+			"description":"我方所有随从+3/+3",
+			"story":"Everyone,let's make history together",
+			"image": "./img17.png"}, 
+		//"card18"
+		{
+			"name": "无肝可肝", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [0,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,3,3,0","1,3,10,0"],
+						"special": "default"}, 
+			"description":"对双方造成(10)点伤害",
+			"story":"哎哟！我的肝",
+			"image": "./img18.png"}, 
+		//"card19"
+		{
+			"name": "不思议迷宫", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "3", 
+						"kind":["0,2,0,0","1,2,2,0","1,8,99,0"],
+						"special": "default"}, 
+			"description":"我方压力增加(2)点，并恢复一个随从所有生命",
+			"story":"每天我就想着体力用完就不玩了，嗯，每天都是",
+			"image": "./img19.png"}, 
+		//"card20"
+		{
+			"name": "648！", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,2,5,0","1,2,-10,0"],
+						"special": "default"}, 
+			"description":"我方压力减少(10)点",
+			"story":"不充钱怎么体现我的强大？",
+			"image": "./img20.png"}, 
+		//"card21"
+		{
+			"name": "喝蛋白粉", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "2", 
+			 			"kind":["0,2,2,0","1,833,8,0"],
+						"special": "default"}, 
+			"description":"使一个随从获得+3/+3",
+			"story":"没有蛋白粉的健身是没有灵魂的",
+			"image": "./img21.png"}, 
+		//"card22"
+		{
+			"name": "健身", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_classification": [1,0,0,0,0],
+						"effect_number": "2", 
+						"kind":["0,2,2,0","3,2,1,0"],
+						"special": "default"}, 
+			"description":"我方增加(1)点活力上限",
+			"story":"听说健身就不会秃头了",
+			"image": "./img22.png"}, 
+		//"card23"
+		{
+			"name": "红牛喝多了", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "2", 
+						"kind":["0,2,-2,0"],
+						"special": "default"}, 
+			"description":"本回合额外获得(2)点活力",
+			"story":"不是说喝红牛跑的更快吗，怎么我只想上厕所...",
+			"image": "./img23.png"}, 
+		//"card24"
+		{
+			"name": "唱歌", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "2", 
+						"kind":["0,2,2,0","811,56,0,0"],
+						"special": "default"}, 
+			"description":"所有友方随从+1/+1",
+			"story":"",
+			"image": "./img24.png"}, 
+		//"card25"
+		{
+			"name": "粉丝集结", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "2", 
+						"kind":["0,2,3,0","911,0,3,0"],
+						"special": "default"}, 
+			"description":"召唤三个1/1的粉丝",
+			"story":"让我看到你们的双手！",
+			"image": "./img25.png"}, 
+		//"card26"
+		{
+			"name": "吃荔园食堂", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "3", 
+						"kind":["0,2,1,0","1,2,-5,0","3,2,-1,0"],
+						"special": "default"}, 
+			"description":"我方减少(5)点压力，减少(1)点活力上限",
+			"story":"每天都是一样的饭菜，一样的营养...嗯",
+			"image": "./img26.png"}, 
+		//"card27"
+		{
+			"name": "大榕树", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "2", 
+						"kind":["0,2,0,0","811,4,0,0"],
+						"special": "default"}, 
+			"description":"场上所有随从+1/+1",
+			"story":"我来的时候印象最深的就是这个树了！",
+			"image": "./img27.png"}, 
+		//"card28"
+		{
+			"name": "相约活动室", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "1", 
+						"kind":["0,3,-5,0","5,2,1,0"],
+						"special": "default"}, 
+			"description":"本回合活力加(5)点，随机弃(1)张牌",
+			"story":"活动室肝project啊兄弟们",
+			"image": "./img28.png"}, 
+		//"card29"
+		{
+			"name": "图书馆学习", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "2", 
+						"kind":["0,2,3,0","4,2,2,0"],
+						"special": "default"}, 
+			"description":"抽两张牌",
+			"story":"什么时候我才能抢到个窗户旁边的位子",
+			"image": "./img29.png"}, 
+		//"card30"
+		{
+			"name": "卧床休息", 
+			"effect": {
+						"class": "spell", 
+						"group": "0",
+						"effect_number": "1", 
+						"kind": ["1,3,-1,0","711,51,0,0"], 
+						"special": "default"}, 
+			"description":"活力上限加一，一个随机友方随从-1/-1",
+			"story":"还有比床更舒服的地方？",
+			"image": "./img30.png"}, 
+		//"card31"
+		{
+			"name": "Project", 
+			"effect": {
+						"class": "spell", 
+						"group": "1",
+						"effect_number": "3", 
+						"kind":["0,2,10,0","1,4,-2,4","3,1,3,4"],
+						"special": "default"}, 
+			"description":"每个回合结束时，对所有随从造成(2)点伤害，双方压力增加(3)点",
+			"story":"别说了，我正在写呢",
+			"image": "./img31.png"}, 
+		//"card32"
+		{
+			"name": "电子竞技", 
+			"effect": {
+						"class": "spell", 
+						"group": "1",
+						"effect_number": "2", 
+						"kind":["0,2,10,0","1,2,-10,0"],
+						"special": "default"}, 
+			"description":"每个回合结束时，我方压力减少(10)点",
+			"story":"怎么以前有人骗我说这个学校有电竞系",
+			"image": "./img32.png"}, 
+		//"card33"
+		{
+			"name": "健美大赛", 
+			"effect": {
+						"class": "spell", 
+						"group": "1",
+						"effect_number": "2", 
+						"kind":["0,2,10,0","4,2,1,3"],
+						"special": "default"}, 
+			"description":"每回合开始时，我方额外抽(1)张牌",
+			"story":"不！这不是哲学视频",
+			"image": "./img33.png"}, 
+		//"card34"
+		{
+			"name": "演唱会", 
+			"effect": {
+						"class": "spell", 
+						"group": "1",
+						"effect_number": "2", 
+						"kind": ["0,2,10,0","922,0,6,0"], 
+						"special": "default"}, 
+			  "description":"召唤若干3/3随从，直至填满我方战场",
+			  "story":"呼，这么闪一夜电费要不少吧",
+			"image": "./img34.png"}, 
+		//"card35"
+		{
+			"name": "考试", 
+			"effect": {
+						"class": "spell", 
+						"group": "2",
+						"effect_number": "2", 
+						"kind":["0,2,8,0","0,1,3,34"],
+						"special": "default"}, 
+			"description":"每回合双方增加(5)点压力，持续(4)回合",
+			"story":"考考考，老师的法宝，分分分，学生的命根呐",
+			"image": "./img35.png"}, 
+		//"card36"
+		{
+			"name": "体育测试", 
+			"effect": {
+						"class": "spell", 
+						"group": "2",
+						"effect_number": "2", 
+						"kind":["0,2,5,0","0,3,5,0"],
+						"special": "default"}, 
+			"description":"双方减少(5)点活力上限",
+			"story":"每年一测，哎我去年是不是没去？",
+			"image": "./img36.png"}, 
+		//"card37"
+		{
+			"name": "放假", 
+			"effect": {
+						"class": "spell", 
+						"group": "2",
+						"effect_number": "2", 
+						"kind":["0,2,5,0","1,3,-5,34"],
+						"special": "default"}, 
+			"description":"每回合开始时，双方压力减少(5)点，持续(4)回合",
+			"story":"又能投入激情的学习中去了！",
+			"image": "./img37.png"},
+		/*
+		学霸职业牌
+		注：spell卡中group0标注为立即发动 1+数字表示为延迟x回合发动 2+数字表示效果持续x回合
+		*/
+		//"card38":
+		{
+			"name": "课堂点名",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "4",
+					"kind":["0,2,1,0","1,61,1,0","1,61,1,0","1,61,1,0"],
+					"special": "default"
+			},
+			"description":"造成三点压力，随机分配到所有敌人身上",
+			"story":"世界一流大学的学生怎么能翘课呢",
+			"image": "./img38.png"
+		},
+		//"card39":
+		{
+			"name": "头脑风暴",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind":["0,2,3,0","4,2,2,0"],
+					"special": "default"
+			},
+			"description":"抽两张牌",
+			"story":"这个算法我再想想...",
+			"image": "./img39.png"
+		},
+		//"card40":
+		{
+			"name": "学业警告",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind":["0,2,10,0","1,9,10,0"],
+					"special": "default"
+			},
+			"description":"造成十点压力",
+			"story":"xx向您推荐了退学申请表",
+			"image": "./img40.png"
+		},
+		//"card41":
+		{
+			"name": "quiz",
+			"effect":{
+					"class": "spell",
+					"group":"0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind":["0,2,4,0","1,9,6,0"],
+					"special": "default"
+			},
+			"description":"造成六点压力",
+			"story":"quiz永远都是解决问题最好的办法",
+			"image": "./img41.png"
+		},
+		//"card42":
+		{
+			"name": "张进",
+			"effect":{
+					"class": "person",
+					"group":"0",
+					"effect_classification": [1,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,8,0","1,0,8,0","2,0,6,0","4,4,8,2"],
+					"special": "default"
+			},
+			"description":"8/8/6, 下一回合开始时所有随从压力加八",
+			"story":"我真的不知道要怎么改你们的卷子了",
+			"image": "./img42.png"
+		},
+		//"card43":
+		{
+			"name": "热心助教",
+			"effect":{
+					"class": "person",
+					"group":"0",
+					"effect_classification": [1,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,2,0","1,0,1,0","2,0,3,0","810,8,0,4"],
+					"special": "default"
+			},
+			"description":"2/1/3, 每个回合结束时，选择一个随从攻击力+1",
+			"story":"来自某位不知名助教的热心指导",
+			"image": "./img43.png"
+		},
+		//"card44":
+		{
+			"name": "ddl警告",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,2,0","1,66,1,0"],
+					"special": "default"
+			},
+			"description": "对对方所有随从造成(1)点伤害",
+			"story": "同学们！马上就要ddl啦",
+			"image": "./img44.png"
+		},
+		//"card45":
+		{
+			"name": "迟交",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,2,0","1,2,1,0","4,2,2,0"],
+					"special": "default"
+			},
+			"description": "增加自己一点压力，抽两张牌",
+			"story": "作业迟交啦，补也来不及了",
+			"image": "./img45.png"
+		},
+		/*
+		学渣职业牌
+		*/
+		//"card46":
+		{
+			"name": "入新坑",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,3,0","6,2,5,0","4,2,1,0"],
+					"special": "default"
+			},
+			"description": "增加五点护盾，抽一张卡",
+			"story": "又找到个好玩的游戏...",
+			"image": "./img46.png"
+		},
+		//"card47":
+		{
+			"name": "弱者退散",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,2,0","1,62,2,0"],
+					"special": "default"
+			},
+			"description": "对方随即两个随从收到(2)点伤害",
+			"story": "菜的就先退下吧",
+			"image": "./img47.png"
+		},
+		//"card48":
+		{
+			"name": "电竞系主任",
+			"effect":{
+					"class": "person",
+					"group": "1",
+					"effect_classification": [1,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,4,0","1,0,3,0","2,0,3,0","4,1,3,0"],
+					"special": "default"
+			},
+			"description": "4/3/3，战吼：给予对方三点压力",
+			"story": "传说中的电竞系主任",
+			"image": "./img48.png"
+		},
+		//"card49":
+		{
+			"name": "路人队友",
+			"effect":{
+					"class": "person",
+					"group": "1",
+					"effect_classification": [0,0,1,1,0],
+					"effect_num": "3",
+					"kind": ["0,2,1,0","1,0,1,0","2,0,2,0"],
+					"special": "default"
+			},
+			"description": "1/1/2，圣盾",
+			"story": "有多少这么可靠的路人队友呢",
+			"image": "./img49.png"
+		},
+		//"card50":
+		{
+			"name": "电竞奇才",
+			"effect":{
+					"class": "person",
+					"group": "1",
+					"effect_classification": [0,0,0,0,1],
+					"effect_num": "4",
+					"kind": ["0,2,5,0","1,0,4,0","2,0,4,0"],
+					"special": "default"
+			},
+			"description": "5/4/4，风怒",
+			"story": "刚蹲了五个，全杀了",
+			"image": "./img50.png"
+		},
+		/*
+		肌霸职业牌
+		*/
+		//"card51":
+		{
+			"name": "肌肉我马哥",
+			"effect":{
+					"class": "person",
+					"group": "2",
+					"effect_classification": [0,0,0,0,1],
+					"effect_num": "3",
+					"kind": ["0,2,7,0","1,0,4,0","2,0,6,0","810,2,0,4"],
+					"special": "default"
+			},
+			"description": "7/4/6，风怒：每个回合结束时我方所有随从攻击力加(1)",
+			"story": "每次看马哥照片都像是在看片",
+			"image": "./img51.png"
+		},
+		//"card52":
+		{
+			"name": "疯狂粉丝",
+			"effect":{
+					"class": "person",
+					"group": "3",
+					"effect_classification": [0,1,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,1,0","1,0,1,0","2,0,2,0"],
+					"special": "default"
+			},
+			"description": "冲锋",
+			"story": "啊啊啊啊啊啊 ",
+			"image": "./img56.png"
+		},
+		//"card53":
+		{
+			"name": "粉丝",
+			"effect":{
+					"class": "person",
+					"group": "3",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,1,0","1,0,1,0","2,0,1,0"],
+					"special": "default"
+			},
+			"description": "",
+			"story": "哇！能当你的粉丝真是太荣幸了！",
+			"image": "./img62.png"
+		},
+		//"card54":
+		{
+			"name": "来两个跑腿的",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,2,0","911,0,2,0"],
+					"special": "default"
+			},
+			"description": "召唤两个1/1的跑路的",
+			"story": "那个谁，能帮我买个水不",
+			"image": "./img54.png"
+		},
+		//"card55":
+		{
+			"name": "过度锻炼",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,2,0","6,2,10,0","4,1,2,0"],
+					"special": "default"
+			},
+			"description": "获得(10)点护甲，对方抽两张牌",
+			"story": "哎哟！我的腿",
+			"image": "./img55.png"
+		},		
+		//"card56":
+		{
+			"name": "健身房看守",
+			"effect":{
+					"class": "person",
+					"group": "2",
+					"effect_classification": [0,0,0,1,0],
+					"effect_num": "3",
+					"kind": ["0,2,2,0","1,0,2,0","2,0,4,0"],
+					"special": "default"
+			},
+			"description": "2/2/4，嘲讽",
+			"story": "我...我真的不是大佬，我就是个看门的",
+			"image": "./img52.png"
+		},
+		/*
+		偶像职业卡
+		*/
+		
+		
+		//"card57":
+		{
+			"name": "前仆后继",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,1,0","2,8,0,0","4,2,2,0"],
+					"special": "default"
+			},
+			"description": "消灭一个随从，你的对手抽两张卡",
+			"story": "生活要是不充满热情，那和死去又有什么区别呢",
+			"image": "./img57.png"
+		},
+		//"card58":
+		{
+			"name": "呐喊助威",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,1,0","830,8,0,0"],
+					"special": "default"
+			},
+			"description": "使一个随从获得加三攻击力",
+			"story": "xxx我宣你！",
+			"image": "./img58.png"
+		},
+		//"card59":
+		{
+			"name": "魅力女神",
+			"effect":{
+					"class": "person",
+					"group": "3",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,3,0","1,0,2,0","2,0,4,0","1,2,-3,4"],
+					"special": "default"
+			},
+			"description": "回合结束时为自己英雄恢复3点生命",
+			"story": "那边的朋友你们好~",
+			"image": "./img59.png"
+		},
+		//"card60":
+		{
+			"name": "国际巨星",
+			"effect":{
+					"class": "person",
+					"group": "3",
+					"effect_classification": [1,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,7,0","1,0,5,0","2,0,6,0","4,2,-6,0"],
+					"special": "default"
+			},
+			"description": "战吼：为我方英雄恢复6点压力",
+			"story": "说到书法我就想起了佛祖在物质上上写的几个字...",
+			"image": "./img60.png"
+		},
+		//"card61":
+		{
+			"name": "新歌发布",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,4,0","1,66,2,0"],
+					"special": "default"
+			},
+			"description": "对所有敌人造成2点伤害",
+			"story": "这是我的新专辑，请大家多多支持",
+			"image": "./img61.png"
+		},
+		//"card62":
+		{
+			"name": "叫人！",
+			"effect":{
+					"class": "spell",
+					"group": "0",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,4,0","922,0,2,0"],
+					"special": "default"
+			},
+			"description": "召唤两个2/2的帮手",
+			"story": "一支穿云箭！",
+			"image": "./img53.png"
+		},
+		//"card63":
+		{
+			"name": "绿茶",
+			"effect":{
+					"class": "person",
+					"group": "4",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,3,0","1,0,0,0","2,0,3,0","955,0,1,2"],
+					"special": "default"
+			},
+			"description": "下个回合开始时召唤一个5/5的老实人",
+			"story": "做自己喜欢的事有错吗，有错吗？",
+			"image": "./img63.png"
+		},
+		//"card64":
+		{
+			"name": "老实人",
+			"effect":{
+					"class": "person",
+					"group": "4",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "3",
+					"kind": ["0,2,4,0","1,0,5,0","2,0,5,0"],
+					"special": "default"
+			},
+			"description": "",
+			"story": "这...这还能怎么办嘛",
+			"image": "./img64.png"
+		},
+		//"card65":
+		{
+			"name": "私人教练",
+			"effect":{
+					"class": "person",
+					"group": "4",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,5,0","1,0,5,0","2,0,5,0","830,51,0,4"],
+					"special": "default"
+			},
+			"description": "每回合结束时增加一个友方其他随从三点攻击力",
+			"story": "经过了私人教练悉心的指导，感觉更加能对抗秃头了...",
+			"image": "./img65.png"
+		},
+		//"card66":
+		{
+			"name": "南风点点",
+			"effect":{
+					"class": "person",
+					"group": "4",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,3,0","1,0,2,0","2,0,3,0","5,2,1,4"],
+					"special": "default"
+			},
+			"description": "每个回合结束时，抽一张卡",
+			"story": "南风点点，送饭到床",
+			"image": "./img66.png"
+		},
+		//"card67":
+		{
+			"name": "查寝",
+			"effect":{
+					"class": "spell",
+					"group": "2",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,4,0","1,4,1,44"],
+					"special": "default"
+			},
+			"description": "每个回合结束时，对所有随从造成(1)点伤害",
+			"story": "查寝啦查寝啦，锅碗瓢盆收一下",
+			"image": "./img67.png"
+		},
+		//"card68":
+		{
+			"name": "讲座",
+			"effect":{
+					"class": "spell",
+					"group": "1",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "2",
+					"kind": ["0,2,4,0","4,2,1,34"],
+					"special": "default"
+			},
+			"description": "接下来的三个回合里，每个回合多抽一张牌",
+			"story": "多听多学",
+			"image": "./img68.png"
+		},
+		//"card69":
+		{
+			"name": "民科",
+			"effect":{
+					"class": "person",
+					"group": "4",
+					"effect_classification": [1,0,0,0,0],
+					"effect_num": "4",
+					"kind": ["0,2,5,0","1,0,3,0","2,0,4,0","3,1,-2,0"],
+					"special": "default"
+			},
+			"description": "战吼：减少对方两点活力上限",
+			"story": "大家好，我是牛顿的弟弟，牛逼",
+			"image": "./img69.png"
+		}
+]
+}
+		/*
+		//"card":
+		{
+			"name": "",
+			"effect":{
+					"class": "",
+					"group": "",
+					"effect_classification": [0,0,0,0,0],
+					"effect_num": "",
+					"kind": [""],
+					"special": "default"
+			},
+			"description": "",
+			"story": "",
+			"image": "./img.png"
+		},
+		*/
