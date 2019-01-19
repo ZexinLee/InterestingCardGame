@@ -18,8 +18,9 @@ KBEngine: 1.0.0(Stable Version).
 Unity3D, C#, Python, Photoshop, MySql, etc..
 
 ## How to Build Environment
-
 Set KBEngine .xml file with the MySQL account.
 
 Then replace the origin folder assets in KBEngine with Backend/assets and configure assets/res/server/kbengine.xml with correct configuration.
 
+## Video
+In the directory Demo Video, we prepare a complete version of video for introduction.
